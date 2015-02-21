@@ -22,4 +22,12 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:text="Texto de prueba"/>
+
+    <TextView
+        android:id="@+id/textView_3"
+        android:layout_weight="3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Texto de prueba extra para github"/>
 </LinearLayout>
