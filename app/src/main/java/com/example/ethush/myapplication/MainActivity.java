@@ -57,6 +57,7 @@ public class MainActivity extends Activity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //show header of the item clicked on a toast
                 Toast.makeText(getBaseContext(),mArrayList.get(i).getHeader()+" pressed",Toast.LENGTH_SHORT).show();
+
             }
         });
         btnUpdate.setOnClickListener(new View.OnClickListener() {

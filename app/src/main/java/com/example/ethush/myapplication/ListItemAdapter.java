@@ -53,6 +53,7 @@ public class ListItemAdapter extends BaseAdapter{
         //of the current list item.
 
         Holder holder;
+
         //assign to new view
         View v = view;
         //check if the view is null, meaning there is no previous view used.
@@ -62,6 +63,7 @@ public class ListItemAdapter extends BaseAdapter{
             //inflate the view with custom list item view
             v = mLayoutInflater.inflate(R.layout.list_item, null);
             //get xml references on holder variables
+
             holder.imageUser = (ImageView)v.findViewById(R.id.image_user);
             holder.txtHeader = (TextView)v.findViewById(R.id.txt_header);
             holder.txtSubHeader = (TextView)v.findViewById(R.id.txt_subheader);
